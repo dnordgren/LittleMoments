@@ -1,0 +1,10 @@
+﻿@model List<LittleMoments.Controllers.TurboMessage>
+
+<turbo-frame id="chat-feed">
+    @foreach (var message in Model)
+    {
+        <div>
+            <strong>@message.Timestamp:</strong> @message.Text
+        </div>
+    }
+</turbo-frame>
