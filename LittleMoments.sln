@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LittleMoments", "LittleMoments.csproj", "{A3B229EA-F181-4AF8-9297-2E3C37BD05FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3B229EA-F181-4AF8-9297-2E3C37BD05FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B229EA-F181-4AF8-9297-2E3C37BD05FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B229EA-F181-4AF8-9297-2E3C37BD05FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B229EA-F181-4AF8-9297-2E3C37BD05FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D08B4C2A-343A-4A75-91AA-767E55273407}
+	EndGlobalSection
+EndGlobal
