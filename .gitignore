@@ -8,8 +8,14 @@ wwwroot/lib/
 
 # Local history for Visual Studio
 .vs/
+*.csproj.user
 
 # dotnet
 project.lock.json
 project.fragment.lock.json
 artifacts/
+
+# SQLite
+*.db
+*.db-wal
+*.db-shm
