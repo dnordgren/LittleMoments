@@ -3,6 +3,21 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">ASP.NET Turbo</h1>
+    <turbo-frame id="main-content">
+        <turbo-frame id="chat-feed">
+            @foreach (var message in Model.Messages)
+            {
+                <div>
+                    <strong>@message.Timestamp:</strong> @message.Text
+                </div>
+            }
+        </turbo-frame>
+        <turbo-frame id="message-form">
+            <form asp-action="PostMessage" method="post" data-turbo-frame="chat-feed" target="_top">
+                <input type="text" name="text" placeholder="Enter your message..." required />
+                <button type="submit">Send</button>
+            </form>
+        </turbo-frame>
+    </turbo-frame>
 </div>
